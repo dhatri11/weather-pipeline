@@ -1,0 +1,35 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+
+# Airflow logs and config
+logs/
+airflow.cfg
+unittests.cfg
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PostgreSQL
+*.pid
+*.sql
+
+# Spark checkpoints
+checkpoints/
